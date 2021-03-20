@@ -22,13 +22,13 @@ public class DirectedGraph {
         
         //to store the Edges informarion
         ArrayList<Edge> edgeList = new ArrayList<Edge>();
-        edgeList.add(new Edge(1, 4,2));
-        edgeList.add(new Edge(4, 2,15));
-        edgeList.add(new Edge(2, 5,8));
-        edgeList.add(new Edge(3, 5,6));
-        edgeList.add(new Edge(3, 1,10));
-        edgeList.add(new Edge(3, 4,5));
-        edgeList.add(new Edge(2, 1,7));
+        edgeList.add(new Edge(1,2,2));
+        edgeList.add(new Edge(2,3,4));
+        edgeList.add(new Edge(2,4,8));
+        edgeList.add(new Edge(3,1,3));
+        edgeList.add(new Edge(3,5,8));
+        edgeList.add(new Edge(5,2,7));
+        edgeList.add(new Edge(5,4,3));
         
         //loop of the ArrayList
         for(int i=0; i<edgeList.size(); i++){
