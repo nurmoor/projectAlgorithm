@@ -28,6 +28,7 @@ public class DirectedGraph {
         edgeList.add(new Edge(3, 5,6));
         edgeList.add(new Edge(3, 1,10));
         edgeList.add(new Edge(3, 4,5));
+        edgeList.add(new Edge(2, 1,7));
         
         //loop of the ArrayList
         for(int i=0; i<edgeList.size(); i++){
