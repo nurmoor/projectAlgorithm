@@ -28,7 +28,7 @@ class Graphs{
     @Override
     public String toString(){
         String result="";
-        for(int i=0;i<G.length;i++)
+        for(int i = 1; i < G.length; i++)
             result+=i+"=>"+G[i]+"\n";
         return result;
     }
